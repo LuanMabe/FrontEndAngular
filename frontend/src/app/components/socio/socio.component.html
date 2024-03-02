@@ -1,0 +1,14 @@
+
+<div *ngIf="socios.length > 0">
+  <h2>Lista de Socios</h2>
+  <ul>
+    <li *ngFor="let socio of socios">
+      {{ socio.nombre }} {{ socio.apellido }} - {{ socio.descripcion }}
+    </li>
+  </ul>
+</div>
+<div *ngIf="socios.length === 0">
+  <p>No hay socios disponibles.</p>
+</div>
+
+  

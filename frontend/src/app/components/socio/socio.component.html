@@ -1,6 +1,6 @@
 
 <div *ngIf="socios.length > 0">
-  <h2>Lista de Socios</h2>
+  <h2>Lista de Socios de la empresa</h2>
   <ul>
     <li *ngFor="let socio of socios">
       {{ socio.nombre }} {{ socio.apellido }} - {{ socio.descripcion }}
@@ -11,4 +11,3 @@
   <p>No hay socios disponibles.</p>
 </div>
 
-  

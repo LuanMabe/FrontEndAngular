@@ -26,8 +26,7 @@ export class SocioComponent implements OnInit {
         this.socios = data;
       },
       (      error: any) => {
-        console.error('Error al obtener la lista de socios:', error);
-        this.error = 'Error al obtener la lista de socios. Por favor, inténtalo de nuevo más tarde.';
+
       }
     );
   }

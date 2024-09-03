@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Socio } from '../../models/socio.model';
 import { SocioService } from '../../services/socio.service';
 
+/*CODIGO DEL COMPONENTE SOCIO*/
+
 @Component({
   selector: 'app-socio',
   templateUrl: './socio.component.html',
